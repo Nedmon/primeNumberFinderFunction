@@ -27,9 +27,9 @@ function prineFinder(x) {
 function primeTeller(number) {
     reCursive(number, number -1) 
     if (prime == true) {
-    	return `yes`;
+    	return `${number} is indeed a prime number!`;
     } else {
-    	return `no`;
+    	return `${number} is NOT a prime number!`;
     }
 
 }
